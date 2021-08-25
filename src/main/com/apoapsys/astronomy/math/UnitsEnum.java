@@ -1,0 +1,171 @@
+package com.apoapsys.astronomy.math;
+
+public enum UnitsEnum {
+	UNDEFINED,
+	
+	// Temperature
+	KELVIN,
+	CELCIUS,
+	FAHRENHEIT,
+	RANKINE,
+	
+	// Distance (metric)
+	YOCTOMETERS,
+	ZEPTOMETERS,
+	ATTOMETERS,
+	FEMTOMETERS,
+	PICOMETERS,
+	NANOMETERS,
+	MICROMETERS,
+	MILLIMETERS,
+	CENTIMETERS,
+	DECIMETERS,
+	METERS,
+	KILOMETERS,
+	
+	// Distance (imperial)
+	INCHES,
+	FEET,
+	YARDS,
+	MILES,
+	
+	// Area
+	ACRE,
+	
+	// Distance (astronomical)
+	AU,
+	LUNAR_DISTANCE,
+	LIGHT_YEARS,
+	PARSECS,
+	
+	
+	// Mass (metric)
+	PICOGRAMS,
+	NANOGRAMS,
+	MICROGRAMS,
+	MILLIGRAMS,
+	CENTIGRAMS,
+	GRAMS,
+	KILOGRAMS,
+	
+	// Mass (imperial)
+	POUNDS,
+	OUNCES,
+	
+	// Mass (other)
+	PLANCK_MASS,
+	
+	// Volume (Metric)
+	MILLILITERS,
+	LITERS,
+	GILL,
+	PINT,
+	QUART,
+	GALLON,
+	CC,
+	
+	// Velocity (Magnitude)
+	METERS_PER_SECOND,
+	KILOMETERS_PER_HOUR,
+	MILES_PER_HOUR,
+	KNOTS, // Nautical Miles per hour
+	FEET_PER_SECOND,
+	MACH,
+	SPEED_OF_LIGHT,
+	
+	// Luminosity
+	JOULES_PER_SECOND,
+	
+	// Force
+	NEWTONS,
+	DYNE,
+	KILOGRAM_FORCE,
+	
+	// Sun Relational
+	SOLAR_MASS,
+	SOLAR_RADII,
+	SOLAR_LUMINOSITY,
+	
+	// Earth Relational
+	EARTH_MASS,
+	EARTH_RADII,
+	
+	// Jupiter Ralational
+	JUPITER_MASS,
+	JUPITER_RADII,
+	
+	// Fractional
+	HUNDRETHS,
+	THOUSANDTHS,
+	MILLIONTHS,
+	BILLIONTHS,
+	TRILLIONTHS,
+	QUADRILLIONTHS,
+	
+	// Multiple
+	HUNDREDS,
+	THOUSANDS,
+	MILLIONS,
+	BILLIONS,
+	TRILLIONS,
+	QUADRILLIONS,
+	
+	// Data (bits)
+	BITS,
+	KILOBITS,
+	MEGABITS,
+	GIGABITS,
+	TERABITS,
+	PETABITS,
+	
+	// Data (8-bit bytes)
+	BYTES,
+	KILOBYTES,
+	MEGABYTES,
+	GIGABYTES,
+	TERABYTES,
+	PERABYTES,
+	
+	// Time
+	FEMTOSECONDS,
+	PICOSECONDS,
+	NANOSECONDS,
+	MICROSECONDS,
+	SECONDS,
+	MINUTES,
+	HOURS,
+	DAYS,
+	WEEKS,
+	MONTHS,
+	YEARS,
+	DECADES,
+	CENTURIES,
+	MILLENIUMS,
+	PLANCK_TIME,
+	
+	// Time (Julian)
+	JULIAN_DAYS,
+	JULIAN_YEARS,
+	JULIAN_CENTURIES,
+	
+	// Frequency
+	HERTZ,
+	KILOHERTZ,
+	MEGAHERTZ,
+	GIGAHERTZ,
+	TERAHERTZ,
+	
+	
+	// Work
+	JOULES,
+	
+	// Electrical
+	AMPERE,
+	VOLTS,
+	WATTS,
+	FARAD,
+	HENRY,
+	OHMS
+	
+	
+}

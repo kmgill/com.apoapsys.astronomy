@@ -1,0 +1,13 @@
+# Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# IntelliJ
+.idea/
+*.iml
+atlassian-ide-plugin.xml
+
+# Maven
+target/
